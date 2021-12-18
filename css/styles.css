@@ -175,6 +175,12 @@
 .foot__container__top {
   margin-top: 50px;
 }
+.foot__container__first__desc, .foot__container__third__desc, .foot__container__second__desc {
+  color: white;
+  font-family: "Aleo";
+  margin-top: 10px;
+  margin-right: 20px;
+}
 .foot__container__bottom {
   display: flex;
   flex-direction: row;
@@ -202,6 +208,60 @@
 .foot__container .shapes {
   width: 40px;
   height: 40px;
+}
+
+.main__container {
+  margin-top: 250px;
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/Rectangle45.svg");
+  position: absolute;
+}
+.main__container__card {
+  width: 540px;
+  height: 371px;
+  position: relative;
+  left: 330px;
+  top: 229px;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: 1px solid white;
+  opacity: 0.9;
+}
+.main__container__card__subheading {
+  color: white;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: 200;
+  font-size: 14px;
+}
+.main__container__card__heading {
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: 300;
+  font-size: 22px;
+}
+.main__container__card__paragraph {
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: 200;
+  font-size: 14px;
+}
+.main__container__card__button {
+  margin-left: 20px;
+  width: 20%;
+  padding: 10px;
+  background: #5474FD;
+  color: white;
+  font-size: 10px;
+  margin-top: 10px;
+  border: 1px solid grey;
+  font-family: "Aleo";
 }
 
 /*# sourceMappingURL=styles.css.map */
