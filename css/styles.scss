@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Mulish:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;1,300&family=Josefin+Sans:wght@200;300;400;500&family=Mulish:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+$primary-color:white;
+$font-color:white;
+$background:#5474FD;
+$font-weights:(
+    "regular":200,
+    "medium":300,
+    "semi-medium":400,
+    "bold":500
+
+);
+
+$font-sizes:(
+    "small":14px,
+    "average":22px,
+    "large":50px
+
+);
+$font-family:'Josefin Sans';
+$font-section:'Aleo';
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.main___container{
+    width:100%;
+    height:900px;
+    background-image: url('../images/image1.png');
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ &__heading-modify{
+     color:$font-color;
+     font-family: $font-family;
+     line-height :40px;
+     margin-bottom:20px;
+     font-weight:map-get($font-weights,bold);
+     font-size:map-get($font-sizes,large);
+
+ }
+ &__paragraph-modify{
+    color:$font-color;
+    line-height :26px;
+    font-family: $font-family;
+    margin-bottom:20px;
+    font-weight:map-get($font-weights,regular);
+    font-size:map-get($font-sizes,average);
+}
+&__searchbar__model{
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  
+  width: 500px;
+  background: hsl(0, 0%, 95%);
+
+  
+} 
+
+&__searchbar__model--modify{
+    width:500px;
+    border: none;
+    font-size:map-get($font-sizes,small);
+}
+
+input{
+    
+    width:200px;
+    border: none;
+    font-size:map-get($font-sizes,small);
+}
+button {
+    float:right;
+    width: 30%;
+    padding: 10px;
+    background: $background;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    margin-top:-9px;
+    margin-right:-10px;
+    font-family: $font-family;
+    font-weight:map-get($font-weights,regular);
+    font-size:map-get($font-sizes,small);
+    
+
+  }
+  i{
+      margin-left:10px;
+  }
+   
+
+}
+
+.nav__container{
+    height:80px;
+    width:100%;
+    background-color: $background;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+&__new-left{
+    width:10%;
+    margin-left:-20px;
+    color:$primary-color;
+    font-family: $font-family;
+    font-weight:map-get($font-weights,regular);
+    font-size:map-get($font-sizes,small);
+
+}
+.nav__links{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    color:$primary-color;
+    font-family: $font-family;
+    font-weight:map-get($font-weights,regular);
+    font-size:map-get($font-sizes,small);
+}
+
+a {
+    text-decoration: none;
+    color:$font-color;
+    font-weight:map-get($font-weights,semi-medium);
+    font-family:$font-family;
+    margin-right:30px;
+}
+ul {
+    list-style-type: none;
+    margin-right: 50px;
+    padding: 0;
+  }
+
+}
+.holiday__page{
+    width:100%;
+    height:700px;
+    background-image: url('../images/holiday.png');
+    display:flex;
+    align-items:center;
+
+&__left{
+    width:50%;
+    margin-left:100px;
+}
+&__left__button{
+    width: 20%;
+    padding: 10px;
+    background: $background;
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    font-family: $font-section;
+
+}
+&__left__heading{
+
+    color: $primary-color;
+    font-family: $font-section;
+    font-weight:map-get($font-weights,regular);
+    font-size:map-get($font-sizes,average);
+    margin-bottom: 30px;
+}
+
+&__left__paragraph__one{
+    color: $primary-color;
+    font-family: $font-section;
+    font-weight:map-get($font-weights,regular);
+    font-size:map-get($font-sizes,small);
+    margin-bottom: 30px;
+
+}
+&__left__paragraph__two{
+    color: $primary-color;
+    font-family: $font-section;
+    font-weight:map-get($font-weights,regular);
+    font-size:map-get($font-sizes,small);
+
+}
+
+&__right{
+    display:flex;
+    flex-direction: column;
+
+}
+.holiday__image1{
+    width:350px;
+    height:220px;
+    margin-right:20px;
+    
+
+}
+.holiday__image2{
+    margin-top:20px;
+    margin-left:80px;
+
+}
+}
+
+.foot__container{
+
+    width:100%;
+    height:250px;
+    background-image: url('../images/holiday.png');
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    
+    &__top{
+        margin-top:50px;
+    }
+
+    &__bottom{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__first__part{
+        display:flex;
+        flex-direction: column;
+        position:relative;
+        right:200px;
+       
+        
+
+    }
+    &__second__part{
+        display:flex;
+        flex-direction: column;
+        position:relative;
+        left:60px;
+
+        
+
+    }
+
+    &__third__part{
+        display:flex;
+        flex-direction: column;
+        position:relative;
+        right:-300px;
+        
+        
+        
+
+    }
+    .shapes{
+        width:40px;
+        height:40px;
+    }
+}

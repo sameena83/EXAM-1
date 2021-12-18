@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Mulish:ital,wght@0,200;0,300;0,400;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;1,300&family=Josefin+Sans:wght@200;300;400;500&family=Mulish:ital,wght@0,200;0,300;0,400;1,200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main___container {
+  width: 100%;
+  height: 900px;
+  background-image: url("../images/image1.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main___container__heading-modify {
+  color: white;
+  font-family: "Josefin Sans";
+  line-height: 40px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 50px;
+}
+.main___container__paragraph-modify {
+  color: white;
+  line-height: 26px;
+  font-family: "Josefin Sans";
+  margin-bottom: 20px;
+  font-weight: 200;
+  font-size: 22px;
+}
+.main___container__searchbar__model {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  width: 500px;
+  background: #f2f2f2;
+}
+.main___container__searchbar__model--modify {
+  width: 500px;
+  border: none;
+  font-size: 14px;
+}
+.main___container input {
+  width: 200px;
+  border: none;
+  font-size: 14px;
+}
+.main___container button {
+  float: right;
+  width: 30%;
+  padding: 10px;
+  background: #5474FD;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  /* Prevent double borders */
+  cursor: pointer;
+  margin-top: -9px;
+  margin-right: -10px;
+  font-family: "Josefin Sans";
+  font-weight: 200;
+  font-size: 14px;
+}
+.main___container i {
+  margin-left: 10px;
+}
+
+.nav__container {
+  height: 80px;
+  width: 100%;
+  background-color: #5474FD;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav__container__new-left {
+  width: 10%;
+  margin-left: -20px;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: 200;
+  font-size: 14px;
+}
+.nav__container .nav__links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: 200;
+  font-size: 14px;
+}
+.nav__container a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-family: "Josefin Sans";
+  margin-right: 30px;
+}
+.nav__container ul {
+  list-style-type: none;
+  margin-right: 50px;
+  padding: 0;
+}
+
+.holiday__page {
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/holiday.png");
+  display: flex;
+  align-items: center;
+}
+.holiday__page__left {
+  width: 50%;
+  margin-left: 100px;
+}
+.holiday__page__left__button {
+  width: 20%;
+  padding: 10px;
+  background: #5474FD;
+  color: white;
+  font-size: 10px;
+  margin-top: 10px;
+  border: 1px solid grey;
+  font-family: "Aleo";
+}
+.holiday__page__left__heading {
+  color: white;
+  font-family: "Aleo";
+  font-weight: 200;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.holiday__page__left__paragraph__one {
+  color: white;
+  font-family: "Aleo";
+  font-weight: 200;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.holiday__page__left__paragraph__two {
+  color: white;
+  font-family: "Aleo";
+  font-weight: 200;
+  font-size: 14px;
+}
+.holiday__page__right {
+  display: flex;
+  flex-direction: column;
+}
+.holiday__page .holiday__image1 {
+  width: 350px;
+  height: 220px;
+  margin-right: 20px;
+}
+.holiday__page .holiday__image2 {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.foot__container {
+  width: 100%;
+  height: 250px;
+  background-image: url("../images/holiday.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.foot__container__top {
+  margin-top: 50px;
+}
+.foot__container__bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.foot__container__first__part {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 200px;
+}
+.foot__container__second__part {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 60px;
+}
+.foot__container__third__part {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: -300px;
+}
+.foot__container .shapes {
+  width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */
