@@ -213,7 +213,7 @@
 .main__container {
   margin-top: 250px;
   width: 100%;
-  height: 800px;
+  height: 700px;
   background-image: url("../images/Rectangle45.svg");
   position: absolute;
 }
@@ -262,6 +262,33 @@
   margin-top: 10px;
   border: 1px solid grey;
   font-family: "Aleo";
+}
+
+.sub__section__container {
+  margin-top: 900px;
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/Rectangle22.svg");
+  position: absolute;
+}
+.sub__section__container .main__container__card {
+  position: relative;
+  left: 900px;
+  top: 229px;
+}
+
+.last__section {
+  margin-top: 1600px;
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/footer.png");
+}
+.last__section__heading__main {
+  color: white;
+}
+.last__section__card__image {
+  width: 445px;
+  height: 284px;
 }
 
 /*# sourceMappingURL=styles.css.map */

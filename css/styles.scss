@@ -272,7 +272,7 @@ ul {
 .main__container{
     margin-top:250px;
     width:100%;
-    height:800px;
+    height:700px;
     background-image: url('../images/Rectangle45.svg');
     position:absolute;
     &__card{
@@ -326,4 +326,35 @@ ul {
 
     }
     
+}
+
+.sub__section__container{
+    margin-top:900px;
+    width:100%;
+    height:700px;
+    background-image: url('../images/Rectangle22.svg');
+    position:absolute;
+
+    .main__container__card{
+        position:relative;
+        left: 900px;
+        top: 229px;
+    }
+    
+
+}
+.last__section{
+    margin-top: 1600px;
+    width:100%;
+    height:700px;
+    background-image: url('../images/footer.png');
+    &__heading__main{
+        color:$primary-color;
+    }
+    &__card__image{
+        width: 445px;
+        height: 284px;
+        
+    }
+
 }
