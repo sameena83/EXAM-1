@@ -285,10 +285,68 @@
 }
 .last__section__heading__main {
   color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Josefin Sans";
+  font-weight: 200;
 }
 .last__section__card__image {
   width: 445px;
   height: 284px;
+}
+.last__section__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+.last__section__card__desc {
+  width: 668px;
+  height: 287px;
+  background-color: #333333;
+}
+.last__section .subtitle, .last__section .sub-paragraph {
+  margin-top: 20px;
+  color: white;
+  margin-left: 20px;
+  text-align: justify;
+  font-family: "Josefin Sans";
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.footer__footer {
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/footerfinal.png");
+}
+.footer__footer__logo {
+  color: white;
+  text-align: center;
+  font-family: "Aleo";
+  line-height: 20px;
+  padding-top: 40px;
+}
+.footer__footer__subtitle {
+  color: white;
+  text-align: center;
+  font-family: "Josefin Sans";
+  line-height: 10px;
+  padding-top: 30px;
+  font-weight: 200;
+  font-size: 14px;
+}
+.footer__footer__social__icons {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+.footer__footer .fab {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
