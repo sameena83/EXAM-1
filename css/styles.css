@@ -338,6 +338,7 @@
   font-size: 14px;
 }
 .footer__footer__social__icons {
+  text-align: center;
   margin-top: 10px;
   display: flex;
   flex-direction: row;
@@ -347,6 +348,214 @@
 }
 .footer__footer .fab {
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main___container {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/image1.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main___container__heading-modify {
+    color: white;
+    font-family: "Josefin Sans";
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .main___container__paragraph-modify {
+    color: white;
+    line-height: 26px;
+    font-family: "Josefin Sans";
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-weight: 200;
+    font-size: 14px;
+  }
+  .main___container__searchbar__model {
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    width: 220px;
+    background: #f2f2f2;
+  }
+  .main___container__searchbar__model--modify {
+    width: 220px;
+    border: none;
+    font-size: 14px;
+  }
+  .main___container input {
+    width: 100px;
+    border: none;
+    font-size: 14px;
+  }
+  .main___container button {
+    float: right;
+    width: 30%;
+    height: 29px;
+    padding: 7px;
+    background: #5474FD;
+    color: white;
+    font-size: 5px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+    margin-top: -6px;
+    margin-right: -10px;
+    font-family: "Josefin Sans";
+    font-weight: 200;
+    font-size: 7px;
+  }
+  .main___container i {
+    margin-left: 10px;
+  }
+
+  .nav__container {
+    height: 40px;
+    width: 100%;
+    background-color: #5474FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav__container__new-left {
+    display: none;
+  }
+  .nav__container .nav__links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: white;
+    font-family: "Josefin Sans";
+    font-weight: 200;
+    font-size: 8px;
+    margin-left: 30px;
+  }
+  .nav__container a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+    margin-right: 30px;
+  }
+  .nav__container ul {
+    list-style-type: none;
+    margin-right: 50px;
+    padding: 0;
+  }
+
+  .holiday__page {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/holiday.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .holiday__page__left {
+    width: 25%;
+    margin-left: 50px;
+  }
+  .holiday__page__left__button {
+    display: none;
+  }
+  .holiday__page__left__heading {
+    color: white;
+    font-family: "Aleo";
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 220px;
+  }
+  .holiday__page__left__paragraph__one {
+    width: 250px;
+    color: white;
+    font-family: "Aleo";
+    font-weight: 200;
+    font-size: 10px;
+    margin-bottom: 100px;
+  }
+  .holiday__page__left__paragraph__two {
+    display: none;
+  }
+  .holiday__page__right {
+    display: flex;
+    flex-direction: column;
+  }
+  .holiday__page .holiday__image1 {
+    display: none;
+  }
+  .holiday__page .holiday__image2 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .foot__container {
+    display: flex;
+  }
+  .foot__container__top {
+    display: none;
+  }
+  .foot__container__bottom {
+    display: none;
+  }
+  .foot__container .main__container {
+    width: 50%;
+    height: 200px;
+    background-image: url("../images/Rectangle45.svg");
+    position: absolute;
+  }
+  .foot__container .main__container__card {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: -100px;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    opacity: 0.9;
+    margin-right: -300px;
+  }
+  .foot__container .main__container__card__subheading {
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: 10px;
+  }
+  .foot__container .main__container__card__heading {
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 22px;
+  }
+  .foot__container .main__container__card__paragraph {
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: 14px;
+  }
+  .foot__container .main__container__card__button {
+    margin-left: 10px;
+    width: 10%;
+    padding: 10px;
+    background: #5474FD;
+    color: white;
+    font-size: 5px;
+    border: 1px solid grey;
+    font-family: "Aleo";
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
